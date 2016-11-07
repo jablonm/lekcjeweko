@@ -1,6 +1,6 @@
 package Zadania_2;
 //
-//Zadanie 1 
+//Zaddanie 1 
 //Wczytaj od użytkownika dwa słowa a następnie sprawdź czy litery od 3-4 są identyczne w dwóch słowach. 
 //Np Kotara wata wycięcie 3-4 w kotara = ta zaś w słowie wata wycięcie zwraca ta czyli jest to prawda. 
 //Ale w słowach Misio Puchatek już jest si i ch czyli nie są identyczne.
