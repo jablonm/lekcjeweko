@@ -33,25 +33,29 @@ public class Strings {
 		//String wordB = "KoRALE";
 		// String wordA = "SZKLAnecZKA";
 		// String wordB = "szkLANECZKA";
-
+		String wynik = "Słowa " + wordA + " i " + wordB + " są takie same.";
 		if (wordA.length() != wordB.length()) {
-			return ("Słowa " + wordA + " i " + wordB + " są różne.");
+			wynik = "Słowa " + wordA + " i " + wordB + " są różne.";
 		} 
 		else {
 			for (int i = 0; i < wordA.length(); i++) {
 				if (wordA.charAt(i) != wordB.charAt(i)) {
-					return "Słowa " + wordA + " i " + wordB + " są różne.";		
+					wynik = "Słowa " + wordA + " i " + wordB + " są różne.";
+					break;		
 				}
 			}
 		}
-		return "Słowa " + wordA + " i " + wordB + " są takie same.";
+		return wynik;
 	}
 	
 	public static String shuffle() {
-		String wordA = "kosax";
+		//youtube warsaw jug
+		String wordA = "kosa"; //immutable 
 		String wordB = "tamarower";
 
-		String shuffleResult = "";
+		String shuffleResult = ".";//".","ta",".ta",
+		//".takosa"
+		//".takosa"
 
 		int val = 0;
 		for (int i = 0; i < ((wordA.length()/2 <= wordB.length()/2) ? wordA.length()/2 : wordB.length()/2); i++) {
@@ -64,7 +68,7 @@ public class Strings {
 		if (val >= wordA.length()/2) {
 			shuffleResult += wordA.substring(val, wordA.length());
 		}
-		if (val >= wordB.length()/2){
+		if (val >= wordB.length()/2) {
 			shuffleResult += wordB.substring(val, wordB.length());
 		}
 
