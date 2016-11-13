@@ -1,4 +1,4 @@
-package Produkty;
+package Zadania_Dziedziczenie;
 
 import java.util.Objects;
 

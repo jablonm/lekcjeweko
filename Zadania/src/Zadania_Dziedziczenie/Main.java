@@ -1,4 +1,4 @@
-package Produkty;
+package Zadania_Dziedziczenie;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -18,8 +18,6 @@ public class Main {
 //		List<Osoba>
 		//
 		// Map<Integer,Integer> mapTmp =new HashMap<>();
-		
-		//JAXB
 
 		int licznik = 0;
 		do {
