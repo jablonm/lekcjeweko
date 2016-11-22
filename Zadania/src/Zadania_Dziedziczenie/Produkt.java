@@ -1,4 +1,4 @@
-package Produkty;
+package Zadania_Dziedziczenie;
 
 public class Produkt {
 
