@@ -1,5 +1,7 @@
 package Produkty;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class Osoba {
@@ -8,6 +10,7 @@ public class Osoba {
 	private String imie;
 	private String nazwisko;
 	private int numerTelefonu;
+	private List<Produkt> listaProduktow = new ArrayList<>();
 	
 	public int getId() {
 		return id;
@@ -34,6 +37,12 @@ public class Osoba {
 		this.numerTelefonu = numerTelefonu;
 	}
 	
+	public List<Produkt> getListaProduktow() {
+		return listaProduktow;
+	}
+	public void setListaProduktow(List<Produkt> listaProduktow) {
+		this.listaProduktow = listaProduktow;
+	}
 	@Override
 	public boolean equals(Object obj) {
 		Osoba os = (Osoba)obj;
