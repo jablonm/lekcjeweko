@@ -1,4 +1,4 @@
-package Zadania_Kolekcje;
+package zadaniaKolekcje;
 
 import java.io.File;
 import java.io.FileNotFoundException;

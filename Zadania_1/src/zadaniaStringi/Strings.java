@@ -1,4 +1,4 @@
-package Zadania_Stringi;
+package zadaniaStringi;
 //
 //Zaddanie 1 
 //Wczytaj od użytkownika dwa słowa a następnie sprawdź czy litery od 3-4 są identyczne w dwóch słowach. 

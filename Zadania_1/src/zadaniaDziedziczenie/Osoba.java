@@ -1,4 +1,4 @@
-package Zadania_Dziedziczenie;
+package zadaniaDziedziczenie;
 
 import java.util.ArrayList;
 import java.util.List;

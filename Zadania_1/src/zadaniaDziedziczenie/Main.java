@@ -1,4 +1,4 @@
-package Zadania_Dziedziczenie;
+package zadaniaDziedziczenie;
 
 import java.io.File;
 import java.io.FileNotFoundException;
